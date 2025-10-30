@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Jewels by Shalu 💎</title>
+  <style>
+    body {
+      font-family: 'Poppins', sans-serif;
+      margin: 0;
+      background: #fffafc;
+      color: #333;
+    }
+    header {
+      background: linear-gradient(135deg, #ff66b2, #ff99cc);
+      color: white;
+      text-align: center;
+      padding: 20px 0;
+      font-size: 1.8em;
+      letter-spacing: 1px;
+    }
+    h2 {
+      text-align: center;
+      margin-top: 30px;
+      color: #ff3399;
+    }
+    .products {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      gap: 20px;
+      padding: 20px;
+    }
+    .product {
+      width: 250px;
+      background: white;
+      border-radius: 15px;
+      box-shadow: 0 0 10px #ddd;
+      padding: 10px;
+      text-align: center;
+      transition: transform 0.3s;
+    }
+    .product:hover {
+      transform: scale(1.05);
+    }
+    .product img {
+      width: 100%;
+      border-radius: 10px;
+    }
+    .product h3 {
+      margin: 10px 0 5px;
+      color: #222;
+    }
+    .product p {
+      margin: 5px 0;
+      font-size: 14px;
+    }
+    .btn {
+      display: inline-block;
+      margin: 6px;
+      padding: 8px 12px;
+      border-radius: 8px;
+      text-decoration: none;
+      color: white;
+      font-weight: 600;
+    }
+    .upi { background: #28a745; }
+    .whatsapp { background: #25d366; }
+    footer {
+      text-align: center;
+      background: #ffccdd;
+      padding: 15px;
+      margin-top: 20px;
+    }
+    .insta {
+      background: #e1306c;
+      color: white;
+      padding: 10px 18px;
+      border-radius: 8px;
+      text-decoration: none;
+      font-weight: 600;
+    }
+  </style>
+</head>
+<body>
+
+  <header>✨ Jewels by Shalu ✨</header>
+
+  <h2>💖 Trending Jewellery Collection 💖</h2>
+
+  <div class="products">
+    <!-- Repeat for 12 products -->
+    <!-- Product Template -->
+    <!-- Just change productX.jpg and name/desc -->
+    <!-- Product 1 -->
+    <div class="product">
+      <img src="images/product1.jpg" alt="Jewellery 1">
+      <h3>Elegant Kundan Necklace</h3>
+      <p>Beautifully crafted for every occasion ✨</p>
+      <p><b>Price:</b> ₹299</p>
+      <a class="btn upi" href="upi://pay?pa=87258583922@kotak8111&pn=JewelsByShalu&am=299">💳 Pay via UPI</a><br>
+      <a class="btn whatsapp" href="https://wa.me/918725853922?text=Hi%20I%20want%20to%20order%20Elegant%20Kundan%20Necklace">📞 Order on WhatsApp</a>
+    </div>
+
+    <!-- Product 2 -->
+    <div class="product">
+      <img src="images/product2.jpg" alt="Jewellery 2">
+      <h3>Antique Silver Choker</h3>
+      <p>Royal oxidized silver for classy looks 👑</p>
+      <p><b>Price:</b> ₹299</p>
+      <a class="btn upi" href="upi://pay?pa=87258583922@kotak8111&pn=JewelsByShalu&am=299">💳 Pay via UPI</a><br>
+      <a class="btn whatsapp" href="https://wa.me/918725853922?text=Hi%20I%20want%20to%20order%20Antique%20Silver%20Choker">📞 Order on WhatsApp</a>
+    </div>
+
+    <!-- Product 3 -->
+    <div class="product">
+      <img src="images/product3.jpg" alt="Jewellery 3">
+      <h3>Oxidized Floral Set</h3>
+      <p>Stylish floral finish for festive wear 🌸</p>
+      <p><b>Price:</b> ₹299</p>
+      <a class="btn upi" href="upi://pay?pa=87258583922@kotak8111&pn=JewelsByShalu&am=299">💳 Pay via UPI</a><br>
+      <a class="btn whatsapp" href="https://wa.me/918725853922?text=Hi%20I%20want%20to%20order%20Oxidized%20Floral%20Set">📞 Order on WhatsApp</a>
+    </div>
+
+    <!-- Product 4 -->
+    <div class="product">
+      <img src="images/product4.jpg" alt="Jewellery 4">
+      <h3>Traditional Temple Necklace</h3>
+      <p>Inspired by royal heritage designs 🕉️</p>
+      <p><b>Price:</b> ₹299</p>
+      <a class="btn upi" href="upi://pay?pa=87258583922@kotak8111&pn=JewelsByShalu&am=299">💳 Pay via UPI</a><br>
+      <a class="btn whatsapp" href="https://wa.me/918725853922?text=Hi%20I%20want%20to%20order%20Traditional%20Temple%20Necklace">📞 Order on WhatsApp</a>
+    </div>
+
+    <!-- Product 5 -->
+    <div class="product">
+      <img src="images/product5.jpg" alt="Jewellery 5">
+      <h3>Purple Stone Earrings</h3>
+      <p>Modern design with royal purple vibe 💜</p>
+      <p><b>Price:</b> ₹299</p>
+      <a class="btn upi" href="upi://pay?pa=87258583922@kotak8111&pn=JewelsByShalu&am=299">💳 Pay via UPI</a><br>
+      <a class="btn whatsapp" href="https://wa.me/918725853922?text=Hi%20I%20want%20to%20order%20Purple%20Stone%20Earrings">📞 Order on WhatsApp</a>
+    </div>
+
+    <!-- Product 6 -->
+    <div class="product">
+      <img src="images/product6.jpg" alt="Jewellery 6">
+      <h3>Gold Plated Set</h3>
+      <p>Elegant gold touch for special occasions 🌟</p>
+      <p><b>Price:</b> ₹299</p>
+      <a class="btn upi" href="upi://pay?pa=87258583922@kotak8111&pn=JewelsByShalu&am=299">💳 Pay via UPI</a><br>
+      <a class="btn whatsapp" href="https://wa.me/918725853922?text=Hi%20I%20want%20to%20order%20Gold%20Plated%20Set">📞 Order on WhatsApp</a>
+    </div>
+
+    <!-- Product 7–12 (same pattern) -->
+    <div class="product"><img src="images/product7.jpg"><h3>Silver Beaded Necklace</h3><p>Trendy silver beads for everyday charm 💫</p><p><b>Price:</b> ₹299</p><a class="btn upi" href="upi://pay?pa=87258583922@kotak8111&pn=JewelsByShalu&am=299">💳 Pay via UPI</a><br><a class="btn whatsapp" href="https://wa.me/918725853922?text=Hi%20I%20want%20to%20order%20Silver%20Beaded%20Necklace">📞 Order on WhatsApp</a></div>
+
+    <div class="product"><img src="images/product8.jpg"><h3>Crystal Drop Earrings</h3><p>Lightweight and elegant crystal drops 💎</p><p><b>Price:</b> ₹299</p><a class="btn upi" href="upi://pay?pa=87258583922@kotak8111&pn=JewelsByShalu&am=299">💳 Pay via UPI</a><br><a class="btn whatsapp" href="https://wa.me/918725853922?text=Hi%20I%20want%20to%20order%20Crystal%20Drop%20Earrings">📞 Order on WhatsApp</a></div>
+
+    <div class="product"><img src="images/product9.jpg"><h3>Royal Kundan Earrings</h3><p>Graceful design for festive and party look 🎉</p><p><b>Price:</b> ₹299</p><a class="btn upi" href="upi://pay?pa=87258583922@kotak8111&pn=JewelsByShalu&am=299">💳 Pay via UPI</a><br><a class="btn whatsapp" href="https://wa.me/918725853922?text=Hi%20I%20want%20to%20order%20Royal%20Kundan%20Earrings">📞 Order on WhatsApp</a></div>
+
+    <div class="product"><img src="images/product10.jpg"><h3>Mirror Work Necklace</h3><p>Trendy mirror design with ethnic touch 🪞</p><p><b>Price:</b> ₹299</p><a class="btn upi" href="upi://pay?pa=87258583922@kotak8111&pn=JewelsByShalu&am=299">💳 Pay via UPI</a><br><a class="btn whatsapp" href="https://wa.me/918725853922?text=Hi%20I%20want%20to%20order%20Mirror%20Work%20Necklace">📞 Order on WhatsApp</a></div>
+
+    <div class="product"><img src="images/product11.jpg"><h3>Classic Pearl Set</h3><p>Timeless pearls for elegant women 🤍</p><p><b>Price:</b> ₹299</p><a class="btn upi" href="upi://pay?pa=87258583922@kotak8111&pn=JewelsByShalu&am=299">💳 Pay via UPI</a><br><a class="btn whatsapp" href="https://wa.me/918725853922?text=Hi%20I%20want%20to%20order%20Classic%20Pearl%20Set">📞 Order on WhatsApp</a></div>
+
+    <div class="product"><img src="images/product12.jpg"><h3>Bridal Necklace Set</h3><p>Perfect for bridal & festive looks 💍</p><p><b>Price:</b> ₹299</p><a class="btn upi" href="upi://pay?pa=87258583922@kotak8111&pn=JewelsByShalu&am=299">💳 Pay via UPI</a><br><a class="btn whatsapp" href="https://wa.me/918725853922?text=Hi%20I%20want%20to%20order%20Bridal%20Necklace%20Set">📞 Order on WhatsApp</a></div>
+
+  </div>
+
+  <footer>
+    <p>Follow us on Instagram 💕</p>
+    <a class="insta" href="https://instagram.com/jewels_by_shalu" target="_blank">📷 @jewels_by_shalu</a>
+    <p>© 2025 Jewels by Shalu | All Rights Reserved</p>
+  </footer>
+
+</body>
+</html>
