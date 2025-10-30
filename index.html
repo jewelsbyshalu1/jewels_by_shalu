@@ -82,15 +82,83 @@
   .whatsapp-btn:hover {
     background-color: #1EBE57;
  } 
-
-</head>
+<head>
   <meta charset="utf-8" />
-  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>Jewels by Shalu</title>
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700;800&display=swap" rel="stylesheet">
- 
+
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600&display=swap" rel="stylesheet">
+
+  <style>
+    * {
+      box-sizing: border-box;
+      font-family: 'Inter', sans-serif;
+    }
+
+    body {
+      margin: 0;
+      background: #fff;
+      color: #333;
+    }
+
+    .product-card {
+      border: 1px solid #ddd;
+      border-radius: 10px;
+      padding: 15px;
+      margin: 15px;
+      text-align: center;
+      box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    }
+
+    .product-card img {
+      width: 100%;
+      border-radius: 10px;
+    }
+
+    h3 {
+      margin: 10px 0 5px;
+      font-size: 18px;
+    }
+
+    p {
+      margin: 5px 0;
+      font-size: 14px;
+    }
+
+    .price {
+      font-weight: bold;
+      color: #c89b58;
+    }
+
+    .pay-btn,
+    .whatsapp-btn {
+      display: inline-block;
+      padding: 10px 16px;
+      border-radius: 6px;
+      color: #fff;
+      text-decoration: none;
+      margin-top: 10px;
+      font-weight: 600;
+    }
+
+    .pay-btn {
+      background-color: #007b1e;
+    }
+
+    .whatsapp-btn {
+      background-color: #25D366;
+    }
+
+    .pay-btn:hover {
+      background-color: #009624;
+    }
+
+    .whatsapp-btn:hover {
+      background-color: #1ebe57;
+    }
+  </style>
+</head>
+
     :root{--gold:#c89b58;--bg:#ffffff;--muted:#6b6b6b}
     *{box-sizing:border-box}
     body{font-family:Inter,system-ui,Arial;margin:0;background:linear-gradient(180deg,#fff 0%,#f8f7f6 100%);color:#111}
