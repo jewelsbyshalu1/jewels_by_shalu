@@ -1,1 +1,136 @@
 # jewels_by_shalu
+<!doctype html>
+
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Jewels by Shalu</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700;800&display=swap" rel="stylesheet">
+  <style>
+    :root{--gold:#c89b58;--bg:#ffffff;--muted:#6b6b6b}
+    *{box-sizing:border-box}
+    body{font-family:Inter,system-ui,Arial;margin:0;background:linear-gradient(180deg,#fff 0%,#f8f7f6 100%);color:#111}
+    .wrap{max-width:980px;margin:32px auto;padding:24px}
+    header{display:flex;align-items:center;justify-content:space-between}
+    .brand{display:flex;align-items:center;gap:14px}
+    .logo{width:64px;height:64px;background:linear-gradient(135deg,var(--gold),#ffd97d);border-radius:12px;display:flex;align-items:center;justify-content:center;font-weight:800;color:#fff;font-size:20px;box-shadow:0 6px 18px rgba(200,155,88,0.18)}
+    h1{margin:0;font-size:20px}
+    .tag{color:var(--muted);font-size:13px}.hero{display:grid;grid-template-columns:1fr 320px;gap:28px;margin:28px 0;align-items:center}
+.hero-left h2{font-size:28px;margin:0 0 10px}
+.hero-left p{margin:0 0 16px;color:var(--muted)}
+.cta{display:inline-block;background:var(--gold);color:#fff;padding:12px 18px;border-radius:10px;text-decoration:none;font-weight:600}
+
+.card{background:#fff;border-radius:14px;padding:14px;box-shadow:0 8px 30px rgba(25,25,25,0.04)}
+.product{display:flex;gap:12px;align-items:center}
+.product img{width:88px;height:88px;border-radius:10px;object-fit:cover}
+.price{font-weight:700;color:var(--gold)}
+
+.grid{display:grid;grid-template-columns:repeat(3,1fr);gap:14px;margin-top:18px}
+.prod-card{border-radius:12px;padding:12px;text-align:center;background:#fff}
+.prod-card img{width:100%;height:160px;object-fit:cover;border-radius:10px}
+.prod-title{margin:10px 0 6px;font-weight:600}
+
+.contact{display:flex;gap:18px;align-items:center;margin-top:18px}
+.contact a{display:inline-flex;align-items:center;gap:8px;text-decoration:none;color:#111}
+footer{margin-top:28px;text-align:center;color:var(--muted);font-size:13px}
+
+/* Follow & Buy section */
+.follow-buy{display:flex;gap:12px;align-items:center;justify-content:center;margin-top:28px;padding:18px;border-radius:14px;background:linear-gradient(180deg,rgba(200,155,88,0.06),rgba(0,0,0,0.02));box-shadow:0 10px 30px rgba(200,155,88,0.06)}
+.btn{padding:12px 18px;border-radius:999px;text-decoration:none;font-weight:700;display:inline-flex;align-items:center;gap:10px}
+.btn-ig{background:transparent;border:2px solid var(--gold);color:var(--gold)}
+.btn-wa{background:var(--gold);color:#fff;border:0}
+
+/* responsive */
+@media (max-width:880px){.hero{grid-template-columns:1fr;}.grid{grid-template-columns:repeat(2,1fr)} .follow-buy{flex-direction:column;gap:10px}}
+@media (max-width:520px){.grid{grid-template-columns:1fr}.logo{width:56px;height:56px}}
+
+  </style>
+</head>
+<body>
+  <div class="wrap">
+    <header>
+      <div class="brand">
+        <div class="logo">JbS</div>
+        <div>
+          <h1>Jewels by Shalu</h1>
+          <div class="tag">Slay every look with a sparkle — Jewels by Shalu ✨</div>
+        </div>
+      </div>
+      <div class="contact">
+        <a href="tel:+919876660242">📞 9876660242</a>
+        <a href="mailto:everma135@gmail.com">✉️ everma135@gmail.com</a>
+      </div>
+    </header><section class="hero">
+  <div class="hero-left">
+    <h2>Modern, handcrafted jewellery for the bold & the beautiful</h2>
+    <p>Curated pieces that add a touch of sparkle to everyday fits — lightweight, durable and totally Instagram-ready.</p>
+    <a class="cta" href="#products">Shop new arrivals</a>
+
+    <div style="margin-top:18px">
+      <div class="card product">
+        <img src="https://images.unsplash.com/photo-1503342452485-86f7a6e6e480?q=80&w=800&auto=format&fit=crop&ixlib=rb-4.0.3&s=placeholder" alt="sample">
+        <div>
+          <div style="font-weight:700">Golden Aura Necklace</div>
+          <div style="color:var(--muted);font-size:13px">Delicate chain with plated finish</div>
+          <div class="price">₹499</div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <aside class="card" style="padding:18px">
+    <div style="font-weight:700;margin-bottom:8px">Featured</div>
+    <img src="https://images.unsplash.com/photo-1517841905240-472988babdf9?q=80&w=800&auto=format&fit=crop&ixlib=rb-4.0.3&s=placeholder" alt="ring" style="width:100%;height:220px;object-fit:cover;border-radius:10px">
+    <div style="margin-top:10px;color:var(--muted);font-size:13px">Limited edition — handcrafted ring set</div>
+  </aside>
+</section>
+
+<section id="products">
+  <h3 style="margin:0">New Arrivals</h3>
+  <div class="grid">
+    <div class="prod-card card">
+      <img src="https://images.unsplash.com/photo-1549060272-9b1f1f9b5e4b?q=80&w=800&auto=format&fit=crop&ixlib=rb-4.0.3&s=placeholder" alt="product">
+      <div class="prod-title">Minimal Hoop Earrings</div>
+      <div style="color:var(--muted);font-size:13px">Lightweight | Everyday</div>
+      <div style="margin-top:8px;font-weight:700">₹299</div>
+    </div>
+    <div class="prod-card card">
+      <img src="https://images.unsplash.com/photo-1520975912449-6c0b8f3d4b5a?q=80&w=800&auto=format&fit=crop&ixlib=rb-4.0.3&s=placeholder" alt="product">
+      <div class="prod-title">Pearl Drop Necklace</div>
+      <div style="color:var(--muted);font-size:13px">Classic with a twist</div>
+      <div style="margin-top:8px;font-weight:700">₹599</div>
+    </div>
+    <div class="prod-card card">
+      <img src="https://images.unsplash.com/photo-1585386959984-a415522c1f0b?q=80&w=800&auto=format&fit=crop&ixlib=rb-4.0.3&s=placeholder" alt="product">
+      <div class="prod-title">Stackable Rings</div>
+      <div style="color:var(--muted);font-size:13px">Mix & match</div>
+      <div style="margin-top:8px;font-weight:700">₹399</div>
+    </div>
+  </div>
+</section>
+
+<section style="margin-top:20px">
+  <div class="card">
+    <h3 style="margin:0 0 6px">Contact / Orders</h3>
+    <p style="margin:0 0 12px;color:var(--muted)">Message or call on WhatsApp: <a href="https://wa.me/919876660242">9876660242</a></p>
+    <p style="margin:0;color:var(--muted)">Or email at <a href="mailto:everma135@gmail.com">everma135@gmail.com</a></p>
+  </div>
+</section>
+
+<!-- Follow & Buy stylish section -->
+<section class="follow-buy" aria-label="Follow and Buy">
+  <a class="btn btn-ig" href="https://instagram.com/jewels_by_shalu" target="_blank" rel="noopener noreferrer">📸 Follow on Instagram</a>
+  <a class="btn btn-wa" href="https://wa.me/919876660242?text=Hi%20Shalu%2C%20I%20want%20to%20buy%20from%20Jewels%20by%20Shalu." target="_blank" rel="noopener noreferrer">💬 Buy on WhatsApp</a>
+</section>
+
+<footer>
+  © <span id="year"></span> Jewels by Shalu — handcrafted jewellery. Made with care in India.
+</footer>
+
+  </div>  <script>
+    document.getElementById('year').textContent = new Date().getFullYear();
+  </script></body>
+</html>
